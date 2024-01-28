@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #build 
-./build/*
+./prof-portfolio/frontend/node_modules/.cache/default-development/*.pack
