@@ -4,8 +4,6 @@ import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
-import NetWorth from './components/NetWorth'; 
-import LoginPage from './LoginPage'; 
 import ProtectedRoute from './ProtectedRoute'; 
 
 function MainApp() {
@@ -41,11 +39,6 @@ function MainApp() {
                   />
                 );
               })}
-            <ProtectedRoute
-              path="/networth"
-              component={NetWorth}
-              isAuthenticated={authenticated}
-            />
             <Route path="/login" component={() => <LoginPage onLogin={() => setAuthenticated(true)} />} />
           </Suspense>
         </Switch>

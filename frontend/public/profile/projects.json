@@ -4,6 +4,7 @@
             "image" : "images/projects/aboutme.png",
             "title": "Dev Portfolio",
             "bodyText": "- Developer Portfolio Website made in React",
+            "isVideo": false,
             "links": [
                 {
                     "text": "GitHub",
@@ -24,14 +25,15 @@
             "image" : "images/projects/514Project.jpg",
             "title": "The Methodizer",
             "bodyText": "- Ordinary Differential Equation Solver\n - Assess the accuracy of different numerical methods for solving ODE's\n - Computes an **efficacy** value based on runtime, memory, and accuracy",
+            "isVideo": true,
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/Benitochall/P514"
+                    "href": "https://github.com/Benitochall/methodizer"
                 },
                 {
                     "text": "Demo",
-                    "href": "https://drive.google.com/file/d/1ZXMylwwaLSAm7KoAKHj7FkfczmIfLA-0/view?usp=sharing"
+                    "href": "https://youtu.be/zOBHQx8hqT8"
                 }
             ],
             "tags" : [
@@ -42,7 +44,8 @@
         {
             "image" : "images/projects/networth.png",
             "title": "Net Worth Tracker",
-            "bodyText": "- A React app that tracks my finances as well as current portfoilio evaluation.\n - Data is stored in a SQLite Database\n - Python backend and React frontend",
+            "bodyText": "- A React app that tracks my finances as well as current portfolio evaluation\n - Data is stored in a SQLite Database\n - Python backend and React frontend",
+            "isVideo": false,
             "links": [
                 {
                     "text": "GitHub",
@@ -52,13 +55,14 @@
             "tags" : [
                 "React",
                 "Python",
-                "SQLite"
+                "SQL"
             ]
         },
         {
             "image" : "images/projects/metafrontend.png",
             "title": "Meta Front-end Developer Certificate",
             "bodyText": "- A 9 course, 7 month certificate program teaching the basics of frontend development\n - Topics covered include: Javascript, Version control, HTML, CSS, React",
+            "isVideo": false,
             "links": [
                 {
                     "text": "Coursera",

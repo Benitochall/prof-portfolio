@@ -28,6 +28,7 @@ function Skills(props) {
       <ReactMarkdown children={intro} />
     </h4>
   );
+  // THis is a very intresting way of fetching and stogin info
 
   useEffect(() => {
     fetch(endpoints.skills, {

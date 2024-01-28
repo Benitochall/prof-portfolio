@@ -20,6 +20,10 @@
                 {
                     "icon": "images/skills/c.jpg",
                     "title": "C"
+                },
+                {
+                    "icon": "images/skills/c++.png",
+                    "title": "C++"
                 }
         ]},
         {

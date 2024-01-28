@@ -23,6 +23,8 @@ const styles = {
   },
   cardTextStyle: {
     textAlign: 'left',
+    height: '100px',
+    overflowY: 'auto',
   },
   linkStyle: {
     textDecoration: 'none',
@@ -30,6 +32,10 @@ const styles = {
   },
   buttonStyle: {
     margin: 5,
+  },
+  imageStyle: {
+    height: '150px',
+    objectFit: 'cover',
   },
 };
 
@@ -86,6 +92,7 @@ const ProjectCard = (props) => {
         )}
       </Card>
     </Col>
+    
   );
 };
 
@@ -94,6 +101,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
+    isVideo: PropTypes.bool,
     links: PropTypes.arrayOf(PropTypes.shape({
       text: PropTypes.string.isRequired,
       href: PropTypes.string.isRequired,
