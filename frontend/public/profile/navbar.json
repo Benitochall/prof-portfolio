@@ -30,8 +30,12 @@
             "href": "/projects"
         },
         {
+            "title": "School Projects",
+            "href": "/sprojects"
+        },
+        {
             "title": "Resume",
-            "href": "https://docs.google.com/document/d/1RHvzbD0AXycyROAO5Et_fGjCYftTyBrZ/edit?usp=sharing&ouid=113293663692705170897&rtpof=true&sd=true",
+            "href": "https://docs.google.com/document/d/1seJEA6-kYNrLZvi1O4f3jN2y69VtseRT/edit?usp=sharing&ouid=109793775936544994392&rtpof=true&sd=true",
             "type": "link"
         }
     ]
