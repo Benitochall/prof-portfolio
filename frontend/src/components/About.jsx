@@ -51,15 +51,15 @@ function About(props) {
           {data
             ? (
               <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
-              </Fade>
+              <Row className="justify-content-center align-items-center">
+                <Col xs={12} sm={6} style={styles.introTextContainer}>
+                  {parseIntro(data.about)}
+                </Col>
+                <Col xs={12} sm={6} style={styles.introImageContainer}>
+                  <img src={data?.imageSource} alt="profile" style={{ maxWidth: '100%', height: 'auto' }} />
+                </Col>
+              </Row>
+            </Fade>
             )
             : <FallbackSpinner />}
         </Container>

@@ -19,7 +19,7 @@
     "react-router-dom": "^6.2.0",
     "react-scripts": "^5.0.0",
     "react-social-icons": "^6.1.0",
-    "styled-components": "^5.3.3",
+    "styled-components": "^latest_version",
     "typewriter-effect": "^2.18.2",
     "use-dark-mode": "^2.3.2",
     "vertical-timeline-component-for-react": "^1.3.2",

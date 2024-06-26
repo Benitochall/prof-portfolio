@@ -44,6 +44,7 @@ function Home() {
               loop: true,
               autoStart: true,
               strings: data?.roles,
+              delay: 50,
             }}
           />
         </div>
