@@ -1,9 +1,19 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/candlestick_chart.png",
+            "title": "Algorithmic Security Trader",
+            "bodyText": "- Developed a trading bot capable of real-time data extraction for selected securities \n- Implemented simple machine learning techniques, including linear regression, to determine optimal trading moments \n - Integrated API for seamless execution of trades",
+            "isVideo": false,
+            "tags" : [
+                "Python",
+                "Linear Regression"
+            ]
+        },
+        {
             "image" : "images/projects/aboutme.png",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React",
+            "bodyText": "- Developer Portfolio Website made in React \n - Showcases my skills, resume, and both school and personal projects",
             "isVideo": false,
             "links": [
                 {

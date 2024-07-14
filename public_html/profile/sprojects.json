@@ -1,0 +1,68 @@
+{
+    "projects" : [
+        {
+            "image" : "images/sprojects/xv6.png",
+            "title": "Get Last Cat",
+            "bodyText": "This program creates a new system call getlastcat in xv6 that outputs the last file that was accessed using the cat command. This project modifies the kernal and user space of the xv6 operating system.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Benitochall/os_p2_getlastcat"
+                }
+            ],
+            "tags" : [
+                "C",
+                "xv6"
+            ]
+        },
+        {
+            "image" : "images/sprojects/xv6.png",
+            "title": "MLFQScheduler in xv6",
+            "bodyText": "- Optomized the scheuduler in xv6 by creating a multi-level feedback queue\n - Includes a \"nice\" system call to lower the proiorty of a process\n - Includes a system call to report the current time each process has spent on the CPU",
+            "isVideo": true,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Benitochall/os_p4_MLFQScheduler"
+                }
+            ],
+            "tags" : [
+                "C",
+                "xv6"
+            ]
+        },
+        {
+            "image" : "images/sprojects/xv6.png",
+            "title": "P<->V Memory Mapper",
+            "bodyText": "- Created mmap and munmap system calls to manage virtual and physical memory in xv6\n - Prevents the user from accessing memory outside the bounds of the heap",
+            "isVideo": false,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Benitochall/os_p5_mmap"
+                }
+            ],
+            "tags" : [
+                "C",
+                "xv6"
+            ]
+        },
+        {
+            "image" : "images/sprojects/TCP.png",
+            "title": "Implementing TCP from UDP",
+            "bodyText": "- Establishes a reliable connection between Sender and Receiver\n - Includes optimizations like fast-retransmit and Jacobson/Karels algo",
+            "isVideo": false,
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Benitochall/networks_p4_tcp"
+                }
+            ],
+            "tags" : [
+                "TCP",
+                "Networks",
+                "Java"
+            ]
+        }
+    ]
+}

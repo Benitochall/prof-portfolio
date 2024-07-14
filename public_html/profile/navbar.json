@@ -1,0 +1,43 @@
+{
+    "logo" : {
+        "source": "images/uw-crest-color-300x180.png",
+        "height" : 45,
+        "width" : 50
+    },
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "title": "About",
+            "href": "/about"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "School Projects",
+            "href": "/sprojects"
+        },
+        {
+            "title": "Resume",
+            "href": "https://docs.google.com/document/d/1JTdySvaIEZgmP5FKdSkRbBtOKlMIvvxC/edit?usp=sharing&ouid=109793775936544994392&rtpof=true&sd=true",
+            "type": "link"
+        }
+    ]
+
+}

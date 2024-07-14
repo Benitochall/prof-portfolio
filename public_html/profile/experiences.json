@@ -1,0 +1,34 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineering Intern",
+            "subtitle": "Breakthrough Fuel LLC",
+            "workType": "Internship",
+            "workDescription": [
+                "Actively contributed to the development team, completing frontend and backend projects building full stack solutions. Added customer value while adhering to software engineering principles to architect solutions including a new $600,000 revenue stream",
+                "Required Skills: Python | Javascript | React | SQL | MUI | Node | Flask | PostgreSQL | Sequelize | Postman | GCP | Git | Agile/Scrum | Test-Driven Development | Continuous Integration/Deployment"
+            ],
+            "dateText": "05/2023 - Present"
+        },
+        {
+            "title": "Academic Tutor",
+            "subtitle": "UW Athletics and Math Dept.",
+            "workType": "Part-time",
+            "workDescription": [
+                "Academic tutor for Math, Econ, and Physics",
+                "Course assistant for precalc"
+            ],
+            "dateText": "08/2022 – Present"
+        },
+        {
+            "title": "Project Lead",
+            "subtitle": "Pivot Interactives",
+            "workType": "Part-time",
+            "workDescription": [
+                "Worked as a videographer, animator, video editor, and content writer on several different lab projects",
+                "Managed biology content writing"
+            ],
+            "dateText": "06/2020 – 01/2022"
+        }
+    ]
+}
