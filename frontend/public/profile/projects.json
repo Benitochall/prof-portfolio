@@ -44,7 +44,12 @@
                 {
                     "text": "Demo",
                     "href": "https://youtu.be/zOBHQx8hqT8"
+                },
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/1yNbaVpuZR9Mma6DYU_bP0r6yeGIiRIdc/view?usp=sharing"
                 }
+                
             ],
             "tags" : [
                 "Python",
