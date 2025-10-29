@@ -1,9 +1,35 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/coming.png",
+            "title": "Bennett (AI)",
+           "bodyText": "- LLM Trained off of my brain",
+            "isVideo": false
+        },
+        {
+            "image" : "images/projects/stockticker.png",
+            "title": "Stock Ticker LED Matrix",
+           "bodyText": "- Raspberry Pi driven panel of led matricies constantly pulling real stock data",
+            "isVideo": false,
+            "tags" : [
+                "C++",
+                "RPi"
+            ]
+        },
+        {
+            "image" : "images/projects/candlestick_chart.png",
+            "title": "STATARB Trader",
+           "bodyText": "- Developed a **cointegration-based statistical arbitrage trading algorithm** to identify and exploit mean-reverting relationships between correlated securities\n- Implemented **advanced statistical and machine learning techniques**, including OLS regression and z-score-based signal generation, to optimize entry and exit points\n- Integrated **real-time market data APIs** for live price tracking and automated trade execution, ensuring low-latency, reliable operations\n- Built **backtesting and performance evaluation framework** to assess strategy profitability and risk metrics across multiple securities and timeframes",
+            "isVideo": false,
+            "tags" : [
+                "Python",
+                "IBAPI"
+            ]
+        },
+        {
             "image" : "images/projects/aboutme.png",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React",
+            "bodyText": "- Developer Portfolio Website made in React \n - Showcases my skills, resume, and both school and personal projects",
             "isVideo": false,
             "links": [
                 {
@@ -34,7 +60,12 @@
                 {
                     "text": "Demo",
                     "href": "https://youtu.be/zOBHQx8hqT8"
+                },
+                {
+                    "text": "Paper",
+                    "href": "https://drive.google.com/file/d/1yNbaVpuZR9Mma6DYU_bP0r6yeGIiRIdc/view?usp=sharing"
                 }
+                
             ],
             "tags" : [
                 "Python",

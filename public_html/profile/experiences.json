@@ -1,14 +1,26 @@
 {
     "experiences": [
         {
+            "title": "Software Engineer I",
+            "subtitle": "Breakthrough",
+            "workType": "Full Time",
+            "workDescription": [
+                "Engineered and deployed API architectures in Apigee, enabling secure, scalable data exchange and real-time analytics while maintaining backward compatibility with legacy systems.",
+                "Developed data ingestion and transformation pipelines to normalize high-volume client datasets, ensuring statistical integrity and improving analytical accuracy across internal platforms.",
+                "Built a full-stack auditing and visualization tool to analyze report edit histories and operational metrics, enhancing transparency and data-driven decision making.",
+                "Collaborated cross-functionally to onboard 100+ enterprise clients, generating over $1M in new revenue and advancing product capabilities through analytical insights and performance optimization."
+            ],
+            "dateText": "05/2024 - Present"
+        },
+        {
             "title": "Software Engineering Intern",
-            "subtitle": "Breakthrough Fuel LLC",
+            "subtitle": "Breakthrough",
             "workType": "Internship",
             "workDescription": [
                 "Actively contributed to the development team, completing frontend and backend projects building full stack solutions. Added customer value while adhering to software engineering principles to architect solutions including a new $600,000 revenue stream",
                 "Required Skills: Python | Javascript | React | SQL | MUI | Node | Flask | PostgreSQL | Sequelize | Postman | GCP | Git | Agile/Scrum | Test-Driven Development | Continuous Integration/Deployment"
             ],
-            "dateText": "05/2023 - Present"
+            "dateText": "05/2023 - 05/2024"
         },
         {
             "title": "Academic Tutor",
@@ -18,7 +30,7 @@
                 "Academic tutor for Math, Econ, and Physics",
                 "Course assistant for precalc"
             ],
-            "dateText": "08/2022 – Present"
+            "dateText": "08/2022 – 05/2024"
         },
         {
             "title": "Project Lead",
