@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
-import NavBarWithRouter from './components/NavBar';
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
 import ProtectedRoute from './ProtectedRoute'; 
@@ -21,11 +21,11 @@ function MainApp() {
 
   return (
     <div className="MainApp">
-      <NavBarWithRouter />
+      <NavBar />
       <main className="main">
-        <Switch>
-          <Suspense fallback={<FallbackSpinner />}>
-            <Route exact path="/" component={Home} />
+        <Suspense fallback={<FallbackSpinner />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
             {data &&
               data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));
@@ -33,15 +33,12 @@ function MainApp() {
                   <Route
                     key={route.headerTitle}
                     path={route.path}
-                    component={() => (
-                      <SectionComponent header={route.headerTitle} />
-                    )}
+                    element={<SectionComponent header={route.headerTitle} />}
                   />
                 );
               })}
-            <Route path="/login" component={() => <LoginPage onLogin={() => setAuthenticated(true)} />} />
-          </Suspense>
-        </Switch>
+          </Routes>
+        </Suspense>
       </main>
     </div>
   );
