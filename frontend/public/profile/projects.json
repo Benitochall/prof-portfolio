@@ -1,13 +1,29 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/coming.png",
+            "title": "Bennett (AI)",
+           "bodyText": "- LLM Trained off of my brain",
+            "isVideo": false
+        },
+        {
+            "image" : "images/projects/stockticker.png",
+            "title": "Stock Ticker LED Matrix",
+           "bodyText": "- Raspberry Pi driven panel of led matricies constantly pulling real stock data",
+            "isVideo": false,
+            "tags" : [
+                "C++",
+                "RPi"
+            ]
+        },
+        {
             "image" : "images/projects/candlestick_chart.png",
-            "title": "Algorithmic Security Trader",
-            "bodyText": "- Developed a trading bot capable of real-time data extraction for selected securities \n- Implemented simple machine learning techniques, including linear regression, to determine optimal trading moments \n - Integrated API for seamless execution of trades",
+            "title": "STATARB Trader",
+           "bodyText": "- Developed a **cointegration-based statistical arbitrage trading algorithm** to identify and exploit mean-reverting relationships between correlated securities\n- Implemented **advanced statistical and machine learning techniques**, including OLS regression and z-score-based signal generation, to optimize entry and exit points\n- Integrated **real-time market data APIs** for live price tracking and automated trade execution, ensuring low-latency, reliable operations\n- Built **backtesting and performance evaluation framework** to assess strategy profitability and risk metrics across multiple securities and timeframes",
             "isVideo": false,
             "tags" : [
                 "Python",
-                "Linear Regression"
+                "IBAPI"
             ]
         },
         {

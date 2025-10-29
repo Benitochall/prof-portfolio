@@ -1,5 +1,4 @@
 {
-    "intro": "Here are some of the technologies I have worked with",
     "skills": [{
      
             "title": "Languages",
@@ -65,6 +64,10 @@
                 {
                     "icon": "images/skills/confluence.png",
                     "title": "Confluence"
+                },
+                {
+                    "icon": "images/skills/apigee.png",
+                    "title": "Apigee"
                 }
             ]
         },
